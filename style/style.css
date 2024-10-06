@@ -84,6 +84,7 @@ nav ul li a {
   padding-top: 20rem;
   flex-direction: column;
 }
+
 .home {
   display: flex;
   justify-content: space-between;
@@ -122,7 +123,7 @@ nav ul li a {
   line-height: 1.4;
 }
 /* image side  */
-.image-side .bg-color {
+/* .image-side .bg-color {
   background: rgb(174, 0, 128);
   width: 400px;
   height: 320px;
@@ -131,7 +132,7 @@ nav ul li a {
   right: 200px;
   z-index: -1;
   border-radius: 190px 75px 0px 0px;
-}
+} */
 .image-side .blur1 {
   background: #00e1ff;
   width: 250px;
@@ -240,6 +241,7 @@ nav ul li a {
   margin-bottom: 1rem;
   letter-spacing: 1px;
   line-height: 1.4;
+  text-align: justify;
 }
 .about-language {
   position: relative;
@@ -256,8 +258,8 @@ nav ul li a {
   align-items: center;
 }
 .about-language h3 {
-  font-size: 3.6rem;
-  font-weight: 400;
+  font-size: 4.2rem;
+  font-weight: 500;
   margin-bottom: 3rem;
 }
 .about-language .icons-file {

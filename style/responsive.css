@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1200px) {
+  .about-language .icons-file {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .education-image {
+    width: 40%;
+  }
+  .education-image img {
+    width: 350px;
+  }
+  .education-content {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body {
+    min-width: 992px;
+  }
+  .home {
+    width: 90%;
+  }
+  nav ul li {
+    padding: 1rem 1.4rem;
+  }
+  .home-footer {
+    display: none;
+  }
+  .about {
+    width: 90%;
+  }
+  .education-image img {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    min-width: 768px;
+  }
+  .about-area {
+    margin-left: 130px;
+  }
+  .about {
+    width: 100%;
+  }
+  .education-area {
+    margin-left: 130px;
+  }
+  .education {
+    flex-direction: column;
+  }
+  .education-image img {
+    width: 380px;
+  }
+  .education-content {
+    width: 100%;
+  }
+  .project-area {
+    margin-left: 130px;
+    text-align: center;
+  }
+  .projects {
+    width: 100%;
+  }
+  .project img {
+    height: 24rem;
+  }
+  .footer-area {
+    margin-left: 150px;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .about {
+    margin-left: 40px;
+    flex-direction: column;
+    min-width: 576px;
+  }
+  .about-area h2 {
+    font-size: 3.6rem;
+    margin-bottom: 1.2rem;
+  }
+  .about-description h4 {
+    margin-bottom: 1rem;
+  }
+  .education-area h2 {
+    font-size: 4.2rem;
+  }
+  .projects {
+    margin-left: 50px;
+    grid-template-columns: 1fr;
+    min-width: 100%;
+  }
+  .project-area h2 {
+    font-size: 4.2rem;
+  }
+  .project img {
+    height: 32rem;
+  }
+  .contact-form {
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  .contact-form .contact {
+    width: 100%;
+  }
+  .contact-form h2 {
+    font-size: 4.2rem;
+    margin: 5rem 0;
+  }
+}
